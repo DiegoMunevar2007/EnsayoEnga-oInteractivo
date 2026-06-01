@@ -227,7 +227,7 @@ export default function DenoisingCanvas({
       ctx.fillStyle = 'rgba(180, 149, 46, 0.7)'
       ctx.font = '9px monospace'
       ctx.textBaseline = 'middle'
-      ctx.fillText(`step ${step} / ${TOTAL_STEPS}`, 10, ch - 11)
+      ctx.fillText(`Paso ${step} / ${TOTAL_STEPS}`, 10, ch - 11)
 
       // Progress bar
       ctx.fillStyle = 'rgba(180, 149, 46, 0.1)'
