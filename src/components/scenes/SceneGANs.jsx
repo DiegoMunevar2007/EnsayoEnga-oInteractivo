@@ -50,9 +50,7 @@ export default function SceneGANs({ scene, index, direction = 0 }) {
             {paragraphs.map((p, i) => (
               <p
                 key={i}
-                className={`font-[family-name:var(--font-classical)] text-sm sm:text-base lg:text-[15px] leading-[1.8] ${
-                  i === 0 ? 'first-letter:text-2xl first-letter:float-left first-letter:mr-1.5 first-letter:mt-0.5 first-letter:font-bold' : ''
-                }`}
+                className="font-[family-name:var(--font-classical)] text-sm sm:text-base lg:text-[15px] leading-[1.8]"
                 style={{ color: 'var(--dg-text)' }}
               >
                 {p}
@@ -66,13 +64,13 @@ export default function SceneGANs({ scene, index, direction = 0 }) {
           initial={{ scale: 0.95 }}
           animate={{ scale: 1 }}
           transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
-          className="flex-shrink-0 w-full max-w-[400px]"
+          className="flex-shrink-0 w-full max-w-[500px]"
         >
           <MorphingCanvas
             key={faceKey}
             subjectIndex={faceKey}
             showSubjectNumber
-            canvasSize={360}
+            canvasSize={440}
             primaryColor="#b8952e"
             secondaryColor="#7a5a30"
             bgColor="#0e0d10"
