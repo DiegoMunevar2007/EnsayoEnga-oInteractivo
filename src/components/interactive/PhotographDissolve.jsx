@@ -345,10 +345,21 @@ export default function PhotographDissolve({
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 1.5, ease: 'easeOut' }}
-                    className="font-[family-name:Caveat,var(--font-classical)] text-xl sm:text-2xl lg:text-3xl leading-relaxed mb-6"
+                    className="font-[family-name:Caveat,var(--font-classical)] text-xl sm:text-2xl lg:text-3xl leading-relaxed mb-4"
                     style={{ color: 'var(--cl-accent)' }}
                   >
                     El suceso que retrata esa imagen nunca existió. ¿Te diste cuenta?
+                  </motion.p>
+                )}
+                {step >= 0 && (
+                  <motion.p
+                    initial={{ opacity: 0, y: 6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: 1.2, duration: 0.8 }}
+                    className="text-sm tracking-[0.2em] mb-12"
+                    style={{ color: 'var(--cl-accent)', opacity: 0.65 }}
+                  >
+                    → Toca para exponer la verdad
                   </motion.p>
                 )}
               </AnimatePresence>

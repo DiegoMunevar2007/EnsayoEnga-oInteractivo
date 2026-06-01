@@ -17,7 +17,7 @@ export default function SceneDifusion({ scene, index, direction = 0 }) {
 
   return (
     <SceneShell scene={scene} index={index}>
-      <div className="w-full h-full flex flex-col lg:flex-row items-center justify-center px-6 sm:px-10 lg:px-16 py-16 sm:py-20 gap-8 lg:gap-16 xl:gap-24">
+      <div className="w-full h-full flex flex-col lg:flex-row items-center justify-center px-6 sm:px-10 lg:px-16 py-16 sm:py-20 gap-8 lg:gap-21 xl:gap-45">
         {/* Left: text */}
         <motion.div
           initial={{ x: -15 }}
@@ -49,7 +49,7 @@ export default function SceneDifusion({ scene, index, direction = 0 }) {
             {paragraphs.map((p, i) => (
               <p
                 key={i}
-                className="font-[family-name:var(--font-classical)] text-sm sm:text-base lg:text-[15px] leading-[1.8]"
+                className="font-[family-name:var(--font-classical)] text-sm sm:text-base lg:text-[15px] leading-[1.8] pr-5"
                 style={{ color: 'var(--dg-text)' }}
               >
                 {p}
