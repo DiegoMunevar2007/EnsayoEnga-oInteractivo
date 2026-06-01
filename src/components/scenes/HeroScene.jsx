@@ -158,6 +158,14 @@ export default function HeroScene({ scene, index, direction = 0 }) {
           </span>
         </h1>
 
+        <h3
+          className="z-30 mt-6 text-center pointer-events-none font-[family-name:var(--font-classical)] font-light text-sm sm:text-base"
+          style={{ color: 'var(--cl-text-muted)' }}
+        >
+          <br />
+          Diego Alejandro Munévar Pérez — 202322221
+        </h3>
+
         {/* Overlay with torchlight spotlight */}
         <div
           className="absolute inset-0 z-20"
