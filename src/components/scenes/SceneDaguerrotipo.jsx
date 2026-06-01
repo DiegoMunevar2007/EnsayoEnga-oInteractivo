@@ -345,7 +345,7 @@ export default function SceneDaguerrotipo({ scene, index, direction = 0 }) {
             initial={{ x: -20 }}
             animate={{ x: 0 }}
             transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="flex-1 max-w-lg lg:max-w-md w-full"
+            className="flex-1 max-w-lg lg:max-w-2xl w-full"
           >
             <div className="flex items-center gap-3 mb-5">
               <span className="inline-block w-8 h-px" style={{ background: 'var(--cl-ochre, var(--cl-accent))' }} />

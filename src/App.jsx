@@ -13,6 +13,7 @@ import SceneDigital from './components/scenes/SceneDigital'
 import SceneGANs from './components/scenes/SceneGANs'
 import SceneDifusion from './components/scenes/SceneDifusion'
 import SceneConclusion from './components/scenes/SceneConclusion'
+import SceneReferencias from './components/scenes/SceneReferencias'
 import { scenes } from './data/essayContent'
 
 const sceneComponents = {
@@ -27,6 +28,7 @@ const sceneComponents = {
   gans: SceneGANs,
   difusion: SceneDifusion,
   conclusion: SceneConclusion,
+  referencias: SceneReferencias,
 }
 
 export default function App() {

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 
-const romanNumerals = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI']
+const romanNumerals = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
 export default function SceneShell({ scene, index, className = '', children }) {
   const theme = scene?.theme || 'classical'

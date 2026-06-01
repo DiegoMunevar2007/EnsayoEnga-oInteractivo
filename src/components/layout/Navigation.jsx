@@ -11,7 +11,7 @@ function getThemeColor(theme) {
 
 const sceneThemes = [
   'mixed', 'classical', 'classical', 'classical', 'classical',
-  'classical', 'classical', 'transition', 'digital', 'digital', 'mixed',
+  'classical', 'classical', 'transition', 'digital', 'digital', 'mixed', 'mixed',
 ]
 
 export default function Navigation({ activeScene, totalScenes, onGoTo, transitioning }) {

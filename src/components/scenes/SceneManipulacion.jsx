@@ -76,7 +76,7 @@ export default function SceneManipulacion({ scene, index, direction = 0 }) {
           </m.div>
 
           {/* Right: Text content */}
-          <div className="w-full lg:w-1/2 flex flex-col justify-center gap-5 max-w-md">
+          <div className="w-full lg:w-1/2 flex flex-col justify-center gap-5 max-w-2xl">
 
             <m.span
               initial={{ opacity: 0, y: 12 }}
