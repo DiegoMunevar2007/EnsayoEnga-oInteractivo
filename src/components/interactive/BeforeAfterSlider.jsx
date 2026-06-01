@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react'
 
 /* IMAGEN: Reemplaza con imágenes de antes/después de manipulación fotográfica. */
 /* Original: Lenin con Trotsky — Retocada: Trotsky eliminado por censura soviética */
-const beforeImg = '/images/Trotsky_Unedited.png'
+const beforeImg = `${import.meta.env.BASE_URL}images/Trotsky_Unedited.png`
 const afterImg = 'https://upload.wikimedia.org/wikipedia/commons/8/85/Lenin_houdt_een_speech%2C_vlakbij_stond_Trotski_maar_die_is_weg_-geretoucheerd%2C_SFA001018178.jpg'
 
 export default function BeforeAfterSlider() {

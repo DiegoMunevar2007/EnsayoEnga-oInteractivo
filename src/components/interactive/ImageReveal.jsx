@@ -1,6 +1,6 @@
 import { useEffect, useState, forwardRef } from 'react'
 
-const placeholderImg = '/images/Daguerrotipo.jpg'
+const placeholderImg = `${import.meta.env.BASE_URL}images/Daguerrotipo.jpg`
 
 const ImageReveal = forwardRef(function ImageReveal(_props, canvasRef) {
   const [blur, setBlur] = useState(20)

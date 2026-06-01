@@ -22,7 +22,7 @@ export const scenes = [
     id: 'mente',
     title: 'La mente del observador',
     theme: 'classical',
-    image: '/images/Copa_rubin.svg',
+    image: `${import.meta.env.BASE_URL}images/Copa_rubin.svg`,
     paragraph: `Más allá de ser una simple anécdota artística, esta historia revela una característica profundamente humana. El valor de una representación no reside únicamente en reproducir fielmente la realidad, sino en su capacidad para generar una percepción convincente de ella. Los griegos comprendieron que una imagen podía ser exitosa no porque mostrara la verdad, sino porque lograba que alguien la aceptara como verdadera. En cierto sentido, el triunfo de Parrasio no fue técnico sino psicológico: entendió que el verdadero escenario del engaño no era el lienzo, sino la mente del observador. Un ejemplo clásico de esto es la copa de Rubin: una misma imagen que puede verse como una copa o como dos rostros, dependiendo de cómo la mente decida interpretarla. Esta idea ha acompañado a la humanidad durante siglos y reaparece cada vez que una nueva tecnología visual promete mostrar la realidad de forma objetiva. Siglos después, la fotografía heredaría ese mismo poder. Aunque fue concebida como una herramienta para registrar el mundo de manera objetiva, pronto se convirtió también en un medio extraordinario para construir engaños.`,
   },
   {
